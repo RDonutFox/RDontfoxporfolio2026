@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rammetto+One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Madimi+One:wght@400&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mitr:wght@400&display=swap" />
+</head>
+
+<body>
+<!-- NAVIGATION -->
+
+<div class="top-nav">
+
+    <button class="nav-button" onclick="scrollToAbout()">
+        <img src="button.png" alt="About button">
+        <span>About</span>
+    </button>
+
+    <button class="nav-button" onclick="scrollToGallery()">
+        <img src="button.png" alt="Gallery button">
+        <span>Gallery</span>
+    </button>
+
+    <button class="nav-button" onclick="openContact()">
+        <img src="button.png" alt="Contact button">
+        <span>Contact</span>
+    </button>
+
+</div>
+
+
+<!-- CONTACT POPUP -->
+
+<div class="contact-popup" id="contactPopup">
+
+    <div class="contact-box">
+
+        <button class="contact-close" onclick="closeContact()">
+            &times;
+        </button>
+
+        <img src="image/contact.png" class="contact-background" alt="Contact">
+
+        <div class="contact-content">
+
+            <h2>Contact me</h2>
+
+            <div class="contact-item">
+                <img src="image/email.png" alt="Email">
+                <span>rubycrystaldf@gmail.com</span>
+            </div>
+
+            <a href="https://x.com/RubyCrystal_DF" target="_blank" class="contact-item">
+                <img src="image/twitter.png" alt="Twitter">
+                <span>@rubycrystal_df</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div class="mass-background">
+
+        <!-- Background 1 -->
+        <div class="bg1-container">
+
+    <img src="image/Background_1.png" class="background bg1">
+
+    <img src="image/portfolio.png" class="portfolio">
+
+</div>
+
+        <!-- Background 2 + WHOLE ABOUT SECTION -->
+        <div class="bg2-container">
+
+            <img src="image/Background_2.png" class="background bg2">
+
+
+            <section class="about" id="about">
+
+                <!-- Profile -->
+                <div class="profile">
+                    <img src="image/profile.png" alt="Profile">
+                </div>
+
+
+                <!-- About Me -->
+                <div class="about-me">
+                    <h2>About me!</h2>
+
+                    <p>
+                        Hiya! I’m Han, an illustration artist and aspiring animator.
+                        I have a strong passion for animation in all its forms, from 3D
+                        and stop motion to (especially!) 2D animation. My art style
+                        majority of the time leans toward wholesome and cute themes,
+                        with vibrant color palette.
+                    </p>
+                </div>
+
+
+                <!-- Education -->
+                <div class="education">
+                    <h2>Education</h2>
+
+                    <p>
+                        <strong>RMIT University</strong>, Ho Chi Minh City<br>
+                        <strong>Bachelor of Design (Digital Media)</strong><br>
+                        — October 2023 - current
+                    </p>
+
+                    <p>
+                        <strong>Vinschool High School</strong>, Ho Chi Minh City<br>
+                        <strong>High School Diploma</strong><br>
+                        — Graduated 2023
+                    </p>
+                </div>
+
+
+                <!-- Experience -->
+                <div class="experience">
+                    <h2>Experience</h2>
+
+                    <p>
+                        <strong>Graphic Designer</strong><br>
+                        <strong>Japanese Culture Club (RMIT University club)</strong><br>
+                        — June 2025-current
+                    </p>
+
+                    <p>
+                        <strong>Design and Sell Merchandise</strong><br>
+                        <strong>Hobby Horizon</strong><br>
+                        — July 2026
+                    </p>
+
+                    <p>
+                        <strong>Freelance Digital Art Commission</strong><br>
+                        — 2020-current
+                    </p>
+                </div>
+
+
+                <!-- Contact -->
+                <div class="contact">
+                    <h2>Contact</h2>
+
+                    <p>
+                        Email: rubycrystaldf@gmail.com<br>
+                        Twitter/X: @RubyCrystal_DF
+                    </p>
+                </div>
+
+
+               <div class="skills">
+    <h2>Skills</h2>
+
+    <div class="skill-list">
+        <span>Character Illustration</span>
+        <span>2D Animation</span>
+        <span>Graphic Design</span>
+        <span>Motion Graphics</span>
+        <span>Merchandise Design</span>
+        <span>Plushie Maker</span>
+    </div>
+</div>
+
+<div class="software">
+    <h2>Software</h2>
+
+    <div class="software-logos">
+
+        <div class="software-logo">
+            <img src="image/Ae_logo.webp" alt="After Effects">
+            <span>After Effects</span>
+        </div>
+
+        <div class="software-logo">
+            <img src="image/Ai_logo.webp" alt="Adobe Illustrator">
+            <span>Adobe Illustrator</span>
+        </div>
+
+        <div class="software-logo">
+            <img src="image/Fa_logo.png" alt="FireAlpaca">
+            <span>FireAlpaca</span>
+        </div>
+
+        <div class="software-logo">
+            <img src="image/Tahoma_logo.png" alt="Tahoma2D">
+            <span>Tahoma2D</span>
+        </div>
+
+        <div class="software-logo">
+            <img src="image/blender_logo.webp" alt="Blender">
+            <span>Blender</span>
+        </div>
+
+    </div>
+</div>
+
+            </section>
+
+        </div>
+
+
+       <!-- ========================================
+     BACKGROUND 3 + PORTFOLIO
+     ======================================== -->
+
+<div class="bg3-section">
+
+    <!-- Background 3 -->
+    <img src="image/Background_3.png" class="bg3">
+
+
+    <div class="portfolio-section" id="gallery">
+
+        <!-- Portfolio Title -->
+        <!-- <h2 class="portfolio-title">
+            Personal
+        </h2> -->
+
+<div class="my-work"> 
+  <img src="image/my work.png">
+</div> 
+
+<!-- PORTFOLIO TABS -->
+
+<div class="portfolio-tabs">
+
+    <button class="portfolio-tab active" onclick="showCategory('personal', this)">
+        <img src="tab_2.png" alt="Personal">
+        <span>Personal</span>
+    </button>
+
+    <button class="portfolio-tab" onclick="showCategory('club', this)">
+        <img src="tab_1.png" alt="Club">
+        <span>Club</span>
+    </button>
+
+    <button class="portfolio-tab" onclick="showCategory('animation', this)">
+        <img src="tab_1.png" alt="Animation">
+        <span>Animation</span>
+    </button>
+
+    <button class="portfolio-tab" onclick="showCategory('other', this)">
+        <img src="tab_1.png" alt="Other">
+        <span>Other</span>
+    </button>
+
+</div>
+
+
+        <!-- PERSONAL -->
+        <div class="portfolio-content" id="personal">
+
+            <img src="image/personal/personal (1).png" alt="">
+            <img src="image/personal/personal (2).png" alt="">
+            <img src="image/personal/personal (3).png" alt="">
+            <img src="image/personal/personal (4).png" alt="">
+            <img src="image/personal/personal (5).png" alt="">
+            <img src="image/personal/personal (6).png" alt="">
+            <img src="image/personal/personal (7).png" alt="">
+            <img src="image/personal/personal (8).png" alt="">
+            <img src="image/personal/personal (9).png" alt="">
+            <img src="image/personal/personal (10).png" alt="">
+            <img src="image/personal/personal (11).png" alt="">
+            <img src="image/personal/personal (12).png" alt="">
+            <img src="image/personal/personal (13).png" alt="">
+            <img src="image/personal/personal (14).png" alt="">
+            <img src="image/personal/personal (15).png" alt="">
+
+        </div>
+
+
+      <!-- CLUB -->
+
+<div class="portfolio-content" id="club">
+
+    <img src="image/club/club (1).png">
+    <img src="image/club/club (2).png">
+    <img src="image/club/club (3).png">
+    <img src="image/club/club (4).png">
+    <img src="image/club/club (5).png">
+    <img src="image/club/club (6).png">
+    <img src="image/club/club (7).png">
+    <img src="image/club/club (8).png">
+
+</div>
+
+
+       <!-- ANIMATION -->
+
+<div class="portfolio-content animation-content" id="animation">
+
+    <!-- VIDEO 1 -->
+    <div class="animation-box">
+
+        <video controls>
+            <source src="Animation/video_1.mp4" type="video/mp4">
+        </video>
+
+        <div class="animation-info">
+
+            <h3>Night Owl</h3>
+
+    
+
+          <p>
+    <strong>Description:</strong>
+    Night Owl follows Lavender, an owl who desperately wants to sleep at night. 
+    Despite being nocturnal, every attempt to fall asleep is interrupted by 
+    increasingly absurd inconveniences. From chamomile tea and an unfortunate 
+    encounter with a scented candle to an unhelpful sleep tutorial and a 
+    questionable online purchase, Lavender's search for sleep becomes more 
+    chaotic. When they finally drift off, their peaceful night takes an 
+    unexpected turn.
+</p>
+
+        </div>
+         <h4>CREDIT</h4>
+
+        <div class="credits-row">
+
+            <div class="credit-person">
+                <strong>Duong Mai Han (me)</strong>
+                <p>Writer</p>
+                <p>Storyboard Artist</p>
+                <p>Character Design</p>
+                <p>Background Artist</p>
+                <p>Animator</p>
+                <p>Video Editing</p>
+            </div>
+
+            <div class="credit-person">
+                <strong>Le Hai Anh</strong>
+                <p>Writer</p>
+                <p>Storyboard Artist</p>
+                <p>Character Design</p>
+                <p>Background Artist</p>
+                <p>Animator</p>
+            </div>
+
+            <div class="credit-person">
+                <strong>Thieu Dai Quoc</strong>
+                <p>Storyboard Artist</p>
+                <p>Animator</p>
+            </div>
+
+            <div class="credit-person">
+                <strong>Nguyen Hoang Tam Nhu</strong>
+                <p>Background Artist</p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- VIDEO 2 -->
+    <div class="animation-box">
+
+        <video controls>
+            <source src="Animation/video_2.mp4" type="video/mp4">
+        </video>
+
+        <div class="animation-info">
+
+            <h3>Breads!</h3>
+
+            <p>
+                <strong>Description:</strong>
+                A short experimental animation, showcasing various of breads
+                with different medium (2D frame by frame, 3D, cutout). 
+                And who doesn't love breads
+            </p>
+<h4>CREDIT</h4>
+
+<div class="credits-row">
+
+    <div class="credit-person">
+        <strong>Duong Mai Han (me)</strong>
+        <p>Storyboard Artist</p>
+        <p>2D Animator</p>
+        <p>3D Animator</p>
+        <p>3D Texture</p>
+        <p>Video Editor</p>
+    </div>
+
+    <div class="credit-person">
+        <strong>Nguyen Vu Minh Thu</strong>
+        <p>3D Animator</p>
+        <p>SFX Editor</p>
+    </div>
+
+</div>
+        </div>
+
+    </div>
+
+</div>
+
+
+        <!-- OTHER -->
+        <!-- OTHER -->
+
+<div class="portfolio-content animation-content" id="other">
+
+    <!-- VIDEO 1 -->
+    <div class="animation-box">
+
+        <video controls>
+            <source src="other/video_1.mp4" type="video/mp4">
+        </video>
+
+        <div class="animation-info">
+
+            <h3> Anti-Hero Vietnamese</h3>
+
+            <p>
+                <strong>Description:</strong>
+                An assignment of modeling and rigging an “Anti-Hero Vietnamese.”
+                <strong>Giangx</strong>, a delinquent, joined the Sao Đỏ to avoid schoolwork and abuse her power.
+                While half of that assumption was true, she still managed to get her work done through her own unique approach, relying on her fists to make a point.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- VIDEO 2 -->
+    <div class="animation-box">
+
+        <video controls>
+            <source src="other/video_2.mp4" type="video/mp4">
+        </video>
+
+        <div class="animation-info">
+
+            <h3>2D Traditional Animation</h3>
+
+            <p>
+                <strong>Description:</strong>
+                A morphing 2D animation on paper about “Self Portrait. The whole animation 
+                was animated on paper, frame by frame.”
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- IMAGE POPUP -->
+
+<div class="image-popup" id="imagePopup">
+
+    <span class="close-popup">&times;</span>
+
+    <img id="popupImage">
+
+</div>
+
+
+    <!-- ========================================
+     JS BS
+     ======================================== -->
+<<script>
+
+/* ========================================
+   PORTFOLIO TABS
+   ======================================== */
+
+function showCategory(category, button) {
+
+    document.querySelectorAll(".portfolio-tab").forEach(function(tab) {
+
+        tab.classList.remove("active");
+
+        tab.querySelector("img").src = "tab_1.png";
+
+    });
+
+
+    button.classList.add("active");
+
+    button.querySelector("img").src = "tab_2.png";
+
+
+    document.querySelectorAll(".portfolio-content").forEach(function(content) {
+
+        content.style.display = "none";
+
+    });
+
+
+    var selected = document.getElementById(category);
+
+    selected.style.display = "block";
+
+}
+
+
+/* ========================================
+   IMAGE POPUP
+   ======================================== */
+
+document.querySelectorAll(".portfolio-content img").forEach(function(image) {
+
+    image.addEventListener("click", function() {
+
+        document.getElementById("imagePopup").style.display = "flex";
+
+        document.getElementById("popupImage").src = this.src;
+
+    });
+
+});
+
+
+/* Close image popup with X */
+
+document.querySelector(".close-popup").addEventListener("click", function() {
+
+    document.getElementById("imagePopup").style.display = "none";
+
+});
+
+
+/* Close image popup by clicking outside */
+
+document.getElementById("imagePopup").addEventListener("click", function(event) {
+
+    if (event.target === this) {
+
+        this.style.display = "none";
+
+    }
+
+});
+
+
+/* ========================================
+   NAVIGATION BUTTONS
+   ======================================== */
+
+function scrollToAbout() {
+
+    document.getElementById("about").scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+
+
+function scrollToGallery() {
+
+    document.getElementById("gallery").scrollIntoView({
+        behavior: "smooth"
+    });
+
+}
+
+function openContact() {
+    document.getElementById("contactPopup").classList.add("show");
+}
+
+function closeContact() {
+    document.getElementById("contactPopup").classList.remove("show");
+}
+
+document.getElementById("contactPopup").addEventListener("click", function(event) {
+
+    if (event.target === this) {
+        closeContact();
+    }
+
+});
+
+
+
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function() {
+
+    var currentScroll = window.scrollY;
+
+    var nav = document.querySelector(".top-nav");
+
+
+    if (currentScroll > lastScrollTop) {
+
+        /* Scrolling down */
+
+        nav.style.opacity = "0";
+        nav.style.pointerEvents = "none";
+
+    } else {
+
+        /* Scrolling up */
+
+        nav.style.opacity = "1";
+        nav.style.pointerEvents = "auto";
+
+    }
+
+
+    lastScrollTop = currentScroll;
+
+});
+
+</script>
+
+</script>
+</body>
+
+</html>
